@@ -1,0 +1,826 @@
+﻿html
+{
+    color: #000000;
+}
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote
+{
+    margin: 0;
+    padding: 0;
+}
+
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset, img
+{
+    border: 0;
+}
+address, caption, cite, code, dfn, em, strong, th, var
+{
+    font-weight: normal;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before, q:after
+{
+    content: '';
+}
+abbr, acronym
+{
+    border: 0;
+    font-variant: normal;
+}
+sup
+{
+    vertical-align: text-top;
+}
+sub
+{
+    vertical-align: text-bottom;
+}
+input, textarea, select
+{
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    border: none;
+}
+legend
+{
+    color: #000;
+}
+strong
+{
+    font-weight: bold;
+}
+
+.clear
+{
+    clear: both;
+}
+.clear-left
+{
+    float: left;
+}
+.clear-right
+{
+    float: right;
+}
+a, img, a:visited, div
+{
+    border: none;
+    outline: none;
+}
+a
+{
+    outline: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-weight: normal;
+}
+a:hover
+{
+    text-decoration: none;
+}
+img
+{
+    height: auto;
+}
+
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-weight: normal;
+    text-align: left;
+    margin: 0 0 13px 0;
+}
+h1
+{
+    font-family: Arial;
+    color: #00539f;
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+h2
+{
+    font-family: Arial;
+    color: #00539f;
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+li
+{
+    color: Red;
+    padding: 5px;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+
+/* Containor
+----------------------------------------------------------------------------- */
+#containor
+{
+    width: 100%;
+}
+
+/* Top Part
+----------------------------------------------------------------------------- */
+#top-part
+{
+    margin: 11px 10px 0 0;
+    min-height: 63px;
+}
+#logo
+{
+    float: left;
+    padding: 0 12px 4px 9px;
+}
+.tagline
+{
+    padding: 0;
+    float: left;
+    font-size: 100%;
+    color: #e32026;
+    font-weight: bold;
+    line-height: 100%;
+}
+.tagline span
+{
+    font-size: 120%;
+}
+.tagline .tollfree
+{
+    padding: 0;
+    float: left;
+    font-size: 100%;
+    color: #000;
+    line-height: 175%;
+    clear: left;
+    font-weight: normal;
+}
+
+.back-btn
+{
+    font-weight: bold;
+    color: #E32026;
+    font-size: 100%;
+    padding: 0 0 3px 0;
+    float: right;
+    width:150px;
+   
+}
+
+.alogt
+{
+   float:inherit;
+}
+
+
+.banner-text
+{
+    color: #000;
+    text-align: left;
+    font-size: 100%;
+    float: left;
+    padding: 0 10px 0px 9px;
+    clear: left;
+    line-height: 20px;
+    width: 100%;
+    background-color: #F3F3F3;
+}
+.banner-text h2 a
+{
+    color: #e32026;
+    margin: 0;
+    clear: none;
+    float: left;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+    padding: 0 10px 0px 9px;
+    background-color: #F3F3F3;
+}
+
+
+/* Content Part
+----------------------------------------------------------------------------- */
+
+#content
+{
+    margin: 0 10px 0 9px;
+    padding: 0 0 7px 0;
+    background: #000;
+}
+.emailIcn
+{
+    float: right;
+    padding-right: 7px;
+}
+
+
+.content-top
+{
+}
+.lt-curve
+{
+    float: left;
+}
+.rt-curve
+{
+    float: right;
+}
+
+.content-box
+{
+    margin-bottom: 7px;
+    background: url(../images/content-bottom.jpg) left bottom repeat-x #f1f1f1;
+}
+.content-box-top
+{
+    background: url(../images/content-top.jpg) left top repeat-x;
+    clear: both;
+}
+.content-box-bottom
+{
+    clear: both;
+}
+
+.content-left-curves
+{
+    width: 7px;
+    float: left;
+}
+.content-right-curve
+{
+    width: 7px;
+    float: right;
+}
+
+
+.content-middle
+{
+    padding: 10px 7px 0;
+}
+.content-middle h2
+{
+    font-size: 140%;
+    color: #e32026;
+    margin: 0;
+    padding-bottom: 12px;
+    clear: both;
+    font-weight: bold;
+}
+/* text-transform:uppercase;*/
+.content-middle h2 a
+{
+    color: #e32026;
+    margin: 0;
+    padding-bottom: 12px;
+    clear: none;
+    float: right;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+}
+.content-middle h3
+{
+    clear: both;
+    color: #E32026;
+    font-size: 110%;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.content-top h1
+{
+    clear: both;
+    color: #E32026;
+    font-size: 110%;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    padding-bottom: 5px;
+}
+
+.content-searchb-main
+{
+    border-bottom: solid #CCC 1px;
+    clear: both;
+    margin: 0 0 7px 0;
+}
+.content-searchb
+{
+    padding: 0 0 5px 0;
+    clear: both;
+}
+.content-searchb-label
+{
+    font-size: 105%;
+    width: 50px;
+    font-weight: bold;
+    float: left;
+}
+.content-searchb select
+{
+    width: 150px;
+    height: 18px;
+    border: #BFBFBF solid 1px;
+}
+
+.btnSubmit
+{
+    background-color: #3C3940;
+    color: #fff;
+    font-weight: bold;
+    width: 50px;
+}
+
+.noData
+{
+    color: Red;
+    font-weight: bold;
+}
+
+/* Content Part EOD
+----------------------------------------------------------------------------- */
+
+
+.input-btn
+{
+    font-weight: bold;
+    color: #E32026;
+    font-size: 120%;
+}
+
+/* Login Part
+----------------------------------------------------------------------------- */
+
+.login-label
+{
+    font-size: 100%;
+    width: 95px;
+    font-weight: bold;
+    float: left;
+}
+
+/* Login Part EOD
+----------------------------------------------------------------------------- */
+
+
+/* myprofile Part
+----------------------------------------------------------------------------- */
+.content-myprofile
+{
+    padding: 5px;
+    clear: both;
+    background-color: #fff;
+    width: 280px;
+    border: solid 1px #CDCDCD;
+    border-radius: 1em;
+}
+.myprofile-label
+{
+    font-size: 100%;
+    width: 70px;
+    font-weight: bold;
+    float: left;
+}
+.myprofile-labelr
+{
+    font-size: 100%;
+    width: 95px;
+    font-weight: bold;
+    float: left;
+}
+
+/* myprofile Part EOD
+----------------------------------------------------------------------------- */
+
+/* linkpolicy  Part
+----------------------------------------------------------------------------- */
+.content-linkpol
+{
+    padding: 5px;
+    clear: both;
+    background-color: #fff;
+    width: 235px;
+    border: solid 1px #CDCDCD;
+    border-radius: 1em;
+}
+.linkpol-label
+{
+    font-size: 100%;
+    width: 70px;
+    font-weight: bold;
+    float: left;
+}
+.linkpol-labelr
+{
+    font-size: 100%;
+    width: 95px;
+    font-weight: bold;
+    float: left;
+}
+.linkpol-text
+{
+    width: 120px;
+    height: 18px;
+    border: #BFBFBF solid 1px;
+}
+.linkpolHead
+{
+    width: 100%;
+    background-color: #ccc;
+}
+
+
+.linkMre
+{
+    font-size: small;
+    color: red;
+}
+a.linkMre:hover
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+
+div.divlnkdPol
+{
+    vertical-align: middle;
+}
+a.aExpire
+{
+    vertical-align: middle;
+    color: Red;
+}
+a.aExpire:hover
+{
+    text-decoration: underline;
+}
+
+/*#CDCDCD;*/
+
+/* linkpolicy Part eod
+----------------------------------------------------------------------------- */
+
+/* Form Part EOD
+----------------------------------------------------------------------------- */
+
+.submit
+{
+    background: #e32026;
+    color: #fff !important;
+    font-size: 80%;
+    margin: 2px 0 0 7px;
+    padding: 0 3px !important;
+    line-height: 20px;
+}
+.submit a
+{
+    float: left;
+    font-size: 80%;
+    color: #fff;
+    line-height: 20px;
+}
+.submit-input
+{
+    width: 148px;
+    height: 18px;
+    border: #BFBFBF solid 1px;
+}
+.submit-btn
+{
+    font-weight: bold;
+    color: #E32026;
+    font-size: 120%;
+    padding: 0 0 3px 0;
+}
+
+.submit-btnsmall
+{
+	font-weight: bold;
+	color: #E32026;
+	font-size: 100%;
+	padding: 0 0 3px 0;
+}
+.submit-label
+{
+    font-weight: bold;
+    color: #E32026;
+    font-size: 120%;
+    padding: 0 3px 0 0;
+}
+
+/* Form Part EOD
+----------------------------------------------------------------------------- */
+
+/* ForgotPWd Part
+----------------------------------------------------------------------------- */
+
+.frgPwd
+{
+    font-weight: bold;
+    font-size: 100%;
+    color: #8A4A26;
+}
+
+
+a.frgPwd:hover
+{
+    font-weight: bold;
+    font-size: 100%;
+    color: #8A4A26;
+    text-decoration: underline;
+}
+
+/* ForgotPWd Part eod
+----------------------------------------------------------------------------- */
+
+
+/* Policy Detail Part 
+-----------------------------------------------------------------------------
+
+.myprofile-label{ font-size:100%; width:70px; font-weight:bold; float:left;}
+.myprofile-labelr{ font-size:100%; width:95px; font-weight:bold; float:left;} */
+.linkpolHeadDet
+{
+    width: 100%;
+    background-color: #BEC2C1;
+}
+
+td.polDet-label
+{
+    font-size: 100%;
+    font-weight: bold;
+}
+tr.polDet
+{
+    border-bottom: solid 1px #E3E3E3;
+}
+
+.polDetlbl
+{
+    color: Black;
+}
+
+
+/*  Policy Detail Part eod
+----------------------------------------------------------------------------- */
+
+
+/* Menu Part
+----------------------------------------------------------------------------- */
+
+div.hideSkiplink
+{
+    background-color: #000;
+    height: 18px;
+    width: 100%;
+    vertical-align: top;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+div.menu
+{
+    padding: 4px 0px 5px 2px;
+}
+
+.menuItem
+{
+    background-color: #27252A;
+    border: 1px #000 solid;
+    color: #dde4ec;
+    line-height: 1.35em;
+    padding: 2px 7px;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: top;
+}
+.menuItemPortal
+{
+    background-color: #27252A;
+    border: 1px #000 solid;
+    color: #dde4ec;
+    line-height: 1.35em;
+    padding: 0px 7px;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.menuItem:hover
+{
+    background-color: #3C3940;
+    color: #fff;
+    text-decoration: none;
+}
+
+.selectedMenu
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+/* Menu Part ENDS
+----------------------------------------------------------------------------- */
+
+/*  Policy Summary Part 
+
+------------------------------------#ff0000----------------------------------------- */
+a.polsumm-lbl
+{
+    color: red;
+    width: 70px;
+}
+a.polsumm-lbl:hover
+{
+    text-decoration: underline;
+}
+.polsumm-label
+{
+    color: red;
+    width: 70px;
+}
+.polsumm-labeltd
+{
+    width: 70px;
+    font-weight: bold;
+}
+
+/* Policy Summary Part ENDS
+----------------------------------------------------------------------------- */
+
+/*  Motor details Part  
+
+----------------------------------------------------------------------------- */
+
+
+.width242px
+{
+    width: 242px !important;
+}
+.paddingTopBottom
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/*  Motor details Part  eod
+
+----------------------------------------------------------------------------- */
+
+.star
+{
+    color: red;
+    padding-left: 0.5px;
+}
+
+.txtboxBorder
+{
+    border: 1px Solid #c9c5bd;
+    width: 140px;
+}
+.txtAreaBorder
+{
+    border: 1px Solid #c9c5bd;
+    width: 200px;
+}
+.txtboxReadonly
+{
+    border: 1px #c9c5bd Solid;
+    width: 140px;
+    background-color: #F4F3EF;
+}
+.quicklnks
+{
+    color: Red;
+    font-weight: bold;
+}
+
+a.quicklnks:hover
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.parentquicklnk
+{
+    color: Red;
+    font-weight: bold;
+}
+
+
+.InVisibleDiv
+{
+    visibility: hidden;
+    display: none;
+}
+.VisibleDiv
+{
+    visibility: visible;
+}
+.DisplayNone
+{
+    display: none;
+}
+.modalBackground
+{
+    background-color: #E1E1E1;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+
+.PrHeader
+{
+    background: url(../../images/sprite.png) repeat-x 0px 0px;
+    border-color: #808080 #808080 #ccc;
+    border-style: solid;
+    border-width: 1px 1px 1px;
+    padding: 0px 10px;
+    color: #4B4B4B;
+    font-size: 9pt;
+    font-weight: bold;
+    line-height: 1.9;
+    white-space: nowrap;
+    font-family: arial,helvetica,clean,sans-serif;
+}
+.PrBody
+{
+    background-color: #E8F2F3;
+    border-color: #808080 #808080 #ccc;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    border-bottom-width: 1px;
+    padding: 10px;
+}
+.PrBodyEmail
+{
+    background-color: #E8F2F3;
+    border-color: #808080 #808080 #ccc;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-bottom-width: 2px;
+    padding: 10px;
+}
+.inputbox01
+{
+    background-color: #ffffff;
+    border: 1px solid #c9c5bd;
+    padding: 2px 3px 0px 3px;
+    font-size: 11px;
+    color: #101010;
+    text-align: left;
+}
+
+
+/* Claim Registration Part
+-----------------------------------------------------------------------------------------------*/
+
+.clmReg-label
+{
+    font-size: 100%;
+    width: 100px;
+    font-weight: bold;
+    float: left;
+}
+.clmReg-label-blur
+{
+    font-weight: lighter;
+    color: Gray;
+}
+.txtboxBorder2
+{
+    border: 1px Solid #c9c5bd;
+   
+}
+
+.Registration-label
+{
+    font-size: 100%;
+    width: 90px;
+    font-weight: bold;
+    float: left;
+}

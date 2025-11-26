@@ -1,0 +1,956 @@
+body, html
+{
+    height: 100%;
+}
+body
+{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-size: 11px;
+    font-weight: normal;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, address
+{
+    display: block;
+}
+iframe, img, embed, object, video, canvas
+{
+    max-width: 100%;
+}
+img
+{
+    border: none;
+    vertical-align: middle;
+    height: auto;
+}
+a
+{
+    outline: none;
+    text-decoration: none;
+    color: #f20000;
+}
+a:hover
+{
+    opacity: 0.6;
+    transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+}
+sup
+{
+    color: #F00;
+}
+div
+{
+    outline: none;
+}
+form
+{
+    padding: 0;
+    margin: 0;
+}
+input:focus
+{
+    /* border:solid 1px #f20000;*/
+    color: #8c8c8c;
+}
+.fclear
+{
+    clear: both;
+    float: none;
+    height: 0px;
+    overflow: hidden;
+    display: block;
+}
+
+/* Content area css Start */
+.calculate-premium-nav
+{
+    width: 100%;
+    float: left;
+    background:#e31f26;
+    border-bottom: solid 1px #e5e5e5;
+    padding: 0;
+}
+.calculate-premium-nav ul
+{
+    margin: 0;
+    padding: 0;
+}
+.calculate-premium-nav ul li
+{
+    list-style: none;
+    color: #333333;
+    font-size: 13px;
+    display: inline-block;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.calculate-premium-nav ul li a
+{
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+.calculate-premium-nav ul li strong
+{
+    font-weight: bold;
+}
+.calculate-premium-nav ul li.active strong
+{
+    font-weight: bold;
+    color: #fff;
+}
+.calculate-premium-nav ul li.active
+{
+    color: #fff;
+    background:#e31f26;
+    padding: 10px 15px;
+}
+.calculate-premium-nav ul li span
+{
+    border-radius: 25px;
+    
+    font-size: 13px;
+    color: #fff;
+    padding: 6px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+    line-height: normal;
+    position: relative;
+}
+.calculate-premium-nav ul li.active span
+{
+    background: #fff;
+    color: #e31f26;
+}
+.calculate-premium-nav ul li label
+{
+    font-size: 10px;
+    padding-left: 33px;
+}
+.errorlabel
+{
+    font-size: 12px;
+    color: #f20000;
+    padding-top: 8px;
+}
+.premium-box2 p
+{
+    line-height: 17px;
+}
+.red-text
+{
+    color: #f20000;
+}
+.botton-group
+{
+    text-align: center;
+}
+.redline
+{
+    background: #F20000;
+    bottom: 0;
+    float: left;
+    height: 4px;
+    position: fixed;
+    width: 100%;
+}
+
+/* View Policy Page Css End */
+.make-payment-field01
+{
+    float: left;
+    padding: 5px 2%;
+    width: 96%;
+}
+.make-payment-field01 label
+{
+    float: left;
+    font-size: 12px;
+    font-weight: normal;
+    padding-right: 1%;
+    padding-top: 5px;
+    text-align: right;
+    width: 42%;
+}
+.make-payment-field
+{
+    float: left;
+    font-size: 12px;
+    width: 57%;
+    padding-top: 5px;
+    font-weight: bold;
+    color: #454545;
+    text-transform: uppercase;
+}
+
+.make-payment-field02
+{
+    float: left;
+    padding: 5px 2%;
+    width: 96%;
+}
+.make-payment-field02 label
+{
+    float: left;
+    font-size: 13px;
+    font-weight: normal;
+    padding-right: 1%;
+    padding-top: 5px;
+    text-align: right;
+    width: 42%;
+}
+.make-payment-field2
+{
+    float: left;
+    font-size: 12px;
+    width: 57%;
+    padding-top: 5px;
+    font-weight: bold;
+    color: #454545;
+    text-transform: uppercase;
+}
+.make-payment-field-view
+{
+    float: left;
+    font-size: 12px;
+    width: 57%;
+    padding-top: 5px;
+    font-weight: bold;
+    color: #454545;
+    text-transform: uppercase;
+}
+.make-payment-field input
+{
+    width: 33px;
+    border: solid 1px #ccc;
+    padding: 3px;
+}
+.make-payment-field-view input
+{
+    width: 33px;
+    border: solid 1px #ccc;
+    padding: 3px;
+}
+.make-payment-field-03
+{
+    float: left;
+    padding: 5px 2%;
+    width: 96%;
+}
+.make-payment-field-03 label
+{
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    padding-right: 1%;
+    padding-top: 5px;
+    text-align: right;
+    width: 42%;
+}
+.make-payment-field3
+{
+    float: left;
+    font-size: 12px;
+    width: 57%;
+    padding-top: 5px;
+    font-weight: bold;
+    color: #454545;
+    text-transform: uppercase;
+}
+.make-payment-field3-view
+{
+    float: left;
+    font-size: 12px;
+    width: 57%;
+    padding-top: 5px;
+    font-weight: bold;
+    color: #454545;
+    text-transform: uppercase;
+}
+.make-pay-radio
+{
+    padding: 0 3%;
+}
+.make-pay-radio span
+{
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.make-pay-radio p
+{
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+}
+.make-pay-radio a
+{
+    background: #f9f9f9;
+    border: 1px solid #d6d6d6;
+    color: #333333;
+    display: block;
+    padding: 5px 2% 5px 2%;
+    margin-bottom: 4px;
+    font-size: 13px;
+    font-weight: normal;
+    margin-left: 0;
+    text-align: center;
+}
+.make-pay-radio a:hover, .make-pay-radio a.selected
+{
+    color: #fff;
+    background: #f20000;
+    border: 1px solid #e31f26;
+}
+.make-pay-radio a img
+{
+    text-align: center;
+    height: 28px;
+    padding: 10px 0;
+}
+.view-policy-plan a
+{
+    background: url(../images/view-policy-tab.png) repeat-x left top #c0c0c0;
+    border-bottom: solid 1px #a3a3a3;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+
+.make-payment-main
+{
+    padding: 15px 0px;
+}
+.transition-amount-mn
+{
+    text-align: center;
+    padding: 7px 10px 0px 10px;
+}
+.transition-amount-mn span
+{
+    font-size: 16px;
+    color: #5c5c5c;
+    display: block;
+    padding-bottom: 5px;
+}
+.transition-amount-mn strong
+{
+    font-size: 20px;
+    color: #f20000;
+}
+/* View Policy Page Css End */
+
+/* View Policy Css STart Here */
+.make-payment-bx
+{
+    float: left;
+    padding: 3px 2%;
+    width: 96%;
+}
+.make-payment-bx label
+{
+    float: left;
+    font-size: 13px;
+    font-weight: normal;
+    padding-right: 1%;
+    padding-top: 5px;
+    text-align: right;
+    width: 42%;
+}
+.make-payment-field
+{
+    float: left;
+    font-size: 13px;
+    width: 57%;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.make-payment-field-view
+{
+    float: left;
+    font-size: 13px;
+    width: 57%;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+
+.make-payment-bx2
+{
+    float: left;
+    padding: 3px 2%;
+    width: 96%;
+}
+.make-payment-bx2 label
+{
+    float: left;
+    font-size: 13px;
+    font-weight: normal;
+    padding-right: 1%;
+    padding-top: 5px;
+    text-align: right;
+    width: 42%;
+}
+.make-payment-field2
+{
+    float: left;
+    font-size: 13px;
+    width: 57%;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.make-payment-field-view
+{
+    float: left;
+    font-size: 13px;
+    width: 39%;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.make-payment-bx3
+{
+    float: left;
+    padding: 3px 2%;
+    width: 96%;
+}
+.make-payment-bx3 label
+{
+    float: left;
+    font-size: 13px;
+    font-weight: normal;
+    padding-right: 1%;
+    padding-top: 5px;
+    text-align: right;
+    width: 42%;
+}
+.make-payment-field3
+{
+    float: left;
+    font-size: 13px;
+    width: 57%;
+    padding-top: 5px;
+    font-weight: bold;
+}
+/* View Policy Css End Here */
+
+
+/* Capture Policy no css start */
+.existion-policy-bxmn
+{
+    width: 98%;
+    margin: 0 auto;
+    padding: 20px 1%;
+    margin-top: 0px; /*border-bottom:solid 1px #ededed;*/
+}
+.existion-policy-bxmn label
+{
+    width: 42%;
+    float: left;
+    padding-right: 1%;
+    text-align: right;
+    font-weight: bold;
+    padding-top: 2px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.existion-policy-ratio-bx
+{
+    width: 25%;
+    float: left;
+    font-size: 14px;
+}
+.existion-policy-ratio-bx input[type="text"]
+{
+    border: solid 1px #e1e1e1;
+    padding: 5px 1%;
+    width: 97%;
+    float: left;
+    font-size: 14px;
+    background: #fff;
+}
+.red-button-small
+{
+    background: #F20000;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 4px 15px 5px 15px;
+    outline: none;
+    border: none;
+    margin: 0px 1px 0px 1px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.red-button-small:hover
+{
+    background: #333333;
+}
+.reset-btn
+{
+    display: block;
+    text-align: center;
+    color: #999999;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    font-size: 9px;
+}
+/* Capture Policy no css End */
+
+/* Calculate Premium Css Start Here*/
+.nex-premium-box
+{
+    width: 270px;
+    text-align: center;
+    background: #f5f5f5;
+    border: solid 1px #e5e5e5;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.nex-premium-box span
+{
+    font-size: 16px;
+    color: #333333;
+    display: block;
+    padding: 10px 0 7px 0;
+}
+.nex-premium-box strong
+{
+    font-size: 18px;
+    color: #f20000;
+    display: block;
+}
+.premium-break-upbtn
+{
+    background: #fff;
+    border-radius: 5px;
+    color: #333;
+    display: block;
+    margin: 10px 4px 4px 4px;
+    padding: 7px 0;
+    font-size: 11px;
+    font-weight: bold;
+}
+.premium-break-upbtn:hover
+{
+    color: #f20000;
+}
+.key-benefits-title
+{
+    display: block;
+    background: url(../images/h2bg.png) repeat-x left top;
+    font-size: 16px;
+    color: #5c5c5c;
+    padding: 12px 0 13px 10px;
+}
+.list-items
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 4px 10px 4px 10px;
+    font-size: 13px;
+    background: #f5f5f5;
+}
+.list-items li
+{
+    background: url(../images/arrow.png) no-repeat left 2px;
+    padding: 6px 0 6px 10px;
+    border-bottom: solid 1px #fff;
+}
+.list-items li:last-child
+{
+    border: 0;
+}
+.key-benefits-para
+{
+    font-size: 11px;
+    padding: 0px 10px 0 10px;
+    margin: 0;
+    line-height: 16px;
+    text-align: center;
+}
+/* Calculate Premium Css End Here*/
+
+/* Premium Break Up css start here */
+.show-premium-popup
+{
+    display: none;
+    width: 500px;
+}
+.premium-breakup-main
+{
+    padding: 10px 0;
+}
+.product-description-table
+{
+    padding: 0px 10px;
+}
+.product-description-table dl dt
+{
+    width: 80%;
+}
+.product-description-table dl dd
+{
+    text-align: center;
+}
+
+.column30 dl dt, .column30 dl dd
+{
+    width: 33%;
+}
+.product-description-table dl dt, .product-description-table dl dd
+{
+    background: #fff;
+    display: table-cell;
+    padding: 8px;
+    border: 1px solid #e5e5e5;
+    color: #333333;
+    font-size: 12px;
+    border-top: 0;
+    border-right: solid 1px #e5e5e5;
+}
+.product-description-table dl dt
+{
+    border-right: 0;
+}
+.product-description-table dl:nth-child(2n+1) dt, .product-description-table dl:nth-child(2n+1) dd
+{
+    background: #f9f9f9;
+}
+.product-description-table dl
+{
+    display: table;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.premium-break-txt
+{
+    color: #f20000;
+    font-size: 13px;
+}
+/* Premium Break Up css End here */
+
+/* Thank you page css start here */
+.thank-you-main
+{
+    padding: 10px;
+}
+.thank-you-main p
+{
+    font-size: 12px;
+    line-height: 18px;
+}
+.thanks-pcenter
+{
+    text-align: center;
+}
+.thanks-note
+{
+    font-size: 11px !important;
+}
+.delivery-days
+{
+    font-size: 9px !important;
+}
+.additional-plan
+{
+    width: auto;
+    margin-left: 2%;
+    display: inline-block !important;
+}
+/* Thank you page css End here */
+
+/* transition faliure page css start here */
+.transition-failure
+{
+    padding: 0px 10px 10px 10px;
+}
+.transition-failure p
+{
+    font-size: 11px;
+    line-height: 16px;
+}
+
+/*  transition faliure page css End here */
+
+.bordertop
+{
+    border-top: 1px solid #EEEEEE;
+    margin-top: 8px;
+}
+
+
+/* Customer information css start here */
+.customer-information-main
+{
+    padding: 10px;
+}
+.customer-info1
+{
+    background: #f5f5f5;
+    padding: 10px 0;
+}
+.customer-info-bxmn1
+{
+    float: left;
+    padding: 7px 2%;
+    width: 96%;
+}
+.customer-info-bxmn1 label
+{
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    padding-right: 1%;
+    padding-top: 1px;
+    text-align: right;
+    width: 38%;
+    font-size: 13px;
+}
+.customer-info-bxmn1-inputbx
+{
+    float: left;
+    font-size: 14px;
+    width: 60%;
+}
+.customer-info-bxmn1-inputbx input[type="text"], select
+{
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    float: left;
+    font-size: 14px;
+    padding: 5px 1%;
+    width: 96%;
+    color: #666;
+}
+.customer-info-bxmn1 span
+{
+    padding-top: 7px;
+    display: block;
+    text-align: center;
+    font-size: 11px;
+}
+.contact-info-ph1
+{
+    width: 15% !important;
+    margin-right: 1%;
+}
+.contact-info-ph2
+{
+    width: 78% !important;
+}
+.contact-info-pincode
+{
+    width: 55% !important;
+}
+.customer-info-bxmn1-inputbx strong
+{
+    font-weight: normal;
+    font-size: 11px;
+    padding-left: 8px;
+    line-height: 25px;
+}
+/* Customer information css End here */
+
+
+
+@media screen and (max-width: 768px)
+{
+    .premium-box2
+    {
+        margin-top: 10px;
+        margin: 0 auto;
+        width: 180px;
+    }
+    .emergency-assistance
+    {
+        display: block;
+    }
+    .custom-premium-break
+    {
+        padding-bottom: 10px;
+    }
+    /*.make-pay-radio a{ width:44%; font-size:13px; }
+    */    .existion-policy-ratio-bx
+    {
+        width: 40%;
+    }
+    .make-payment-field02 label, .make-payment-field01 label, .make-payment-field-03 label
+    {
+        text-align: right;
+        width: 42%;
+    }
+
+    .make-pay-radio
+    {
+        text-align: center;
+    }
+    .calculate-premium-nav ul li
+    {
+        font-size: 12px;
+    }
+    .show-premium-popup
+    {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 479px)
+{
+    .existion-policy-ratio-bx
+    {
+        width: 54%;
+    }
+    .make-payment-field01 label
+    {
+        width: 98%;
+        text-align: left;
+        padding-right: 0;
+    }
+    .make-payment-field01
+    {
+        border-bottom: solid 1px #e6e6e6;
+        padding: 2px 2% 5px 2%;
+    }
+    .make-payment-field02 label, .make-payment-field01 label, .make-payment-field-03 label
+    {
+        text-align: right;
+        width: 43%;
+        padding-right: 2%;
+    }
+    .make-payment-field2, .make-payment-field
+    {
+        width: 56%;
+    }
+    .make-payment-field3
+    {
+        width: 48%;
+    }
+    .make-payment-field3-view
+    {
+        width: 39%;
+    }
+    .make-payment-field-view
+    {
+        width: 50%;
+    }
+    .make-payment-field-view
+    {
+        width: 50%;
+    }
+
+    .make-payment-field02
+    {
+        border-bottom: solid 1px #ededed;
+        padding: 2px 2% 8px 2%;
+        display: block;
+    }
+    .make-payment-field-view input
+    {
+        margin-bottom: 5px;
+        width: 17px;
+        font-size: 11px;
+    }
+    .motor-special-discount
+    {
+        width: 100%;
+    }
+    .calculate-premium-nav ul li strong
+    {
+        display: none;
+    }
+    .calculate-premium-nav ul li.active strong
+    {
+        display: inline-block;
+    }
+    .make-pay-radio a
+    {
+        display: block;
+        width: auto;
+    }
+    .additional-plan
+    {
+        width: 42% !important;
+        float: left !important;
+        margin-left: 2% !important;
+    }
+    .thanks-delclartion
+    {
+        padding-top: 15px;
+    }
+
+    .make-payment-bx label
+    {
+        width: 98%;
+        text-align: left;
+        padding-right: 0;
+    }
+    .make-payment-bx
+    {
+        border-bottom: solid 1px #e6e6e6;
+        padding: 2px 2% 5px 2%;
+    }
+    .make-payment-bx2 label
+    {
+        text-align: right;
+        width: 42%;
+    }
+    .make-payment-bx2
+    {
+        border-bottom: solid 1px #e6e6e6;
+        padding: 2px 2% 8px 2%;
+        display: block;
+    }
+    .make-payment-bx3 label
+    {
+        text-align: right;
+        width: 50%;
+    }
+    .make-payment-bx3
+    {
+        border-bottom: solid 1px #e6e6e6;
+        padding: 2px 2% 8px 2%;
+        display: block;
+    }
+    .make-payment-field320
+    {
+        width: 95%;
+    }
+    .tabc1 .make-payment-bx:last-child
+    {
+        border: 0;
+    }
+    .show-premium-popup
+    {
+        width: 300px;
+    }
+    .contact-info-ph2
+    {
+        width: 76% !important;
+    }
+
+}
+
+
+/* Inspection Detail Page css start here */
+.inspection-detail{ padding:0 10px 10px 10px; }
+.inspection-detail p{ font-size:12px; font-weight:bold; line-height:18px; color:#5e5e5e; text-align:center; }
+.inspection-detail h2{ border-bottom:solid 1px #e9e9e9; border-top:solid 1px #e9e9e9; color:#f20000; text-align:center; text-transform:uppercase; font-weight:bold; font-size:14px; padding:8px 0; }
+
+.inspection-info-1 { float: left; padding: 7px 2%; width: 96%; }
+.inspection-info-1 label { float: left; font-size: 14px; font-weight: normal; padding-right: 2%; padding-top: 3px; text-align: right; width: 38%;  font-size:13px; }
+.inspection-info-1-inputbx{ float: left; font-size: 14px; width: 60%; }
+.inspection-info-1-inputbx input[type="text"] { background:#FFFFFF; border: 1px solid #E1E1E1; float: left; font-size: 14px; padding: 5px 1%; width: 96%; color:#666; }
+.inspection-info-1-inputbx select { background:#FFFFFF; border: 1px solid #E1E1E1; float: left; font-size: 14px; padding: 5px 1%; width: 98%; color:#666; }
+.inspection-info-1 span{ padding-top:7px; display:block; text-align:center; font-size:11px; }
+@media screen and (max-width: 479px) {
+.inspection-info-1{ padding-bottom:3px }
+.inspection-info-1 label{ width:100%; padding-right:0; text-align:left; padding-top:0; padding-bottom:5px; }	
+.inspection-info-1-inputbx{ width:100%; }
+}
